@@ -1,75 +1,65 @@
-Absolutely! Here's a clean and professional **`README.md` template** you can use as a starting point for your GitHub project:
+Perfect — thanks for sharing your live preview links! Here's an updated `README.md` tailored for your GitHub repository, now including clickable **live previews** for each project:
+
+---
 
 ```markdown
-# Project Title
+# HTML & CSS UI Designs
 
-A brief description of what this project does and who it's for.
+A collection of sleek and responsive UI components built using pure HTML and CSS. This repository showcases three mini projects that demonstrate creative front-end design techniques.
 
-## 🚀 Features
+## ✨ Projects Included
 
-- Feature 1
-- Feature 2
-- Feature 3
+### 1. Credit Card UI  
+A modern credit card layout with clean styling and realistic design.  
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Credit%20Card%20Ui%20Design/index.html)
 
-## 📦 Installation
+### 2. Flipping Card UI  
+An interactive card that flips on hover, revealing additional content on the back.  
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Flipping%20Card%20Ui%20Design/)
 
-Clone the repository:
+### 3. Profile Card UI  
+A stylish profile card with image, name, and social links — perfect for portfolios.  
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Profile%20Card%20Ui%20Design/profile_ui_design.html)
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-Install dependencies (if any):
-
-```bash
-# Example for Python
-pip install -r requirements.txt
-```
-
-## 🛠️ Usage
-
-Explain how to run or use your project:
-
-```bash
-# Example command
-python main.py
-```
-
-## 📁 Project Structure
+## 📁 Folder Structure
 
 ```
-your-repo-name/
-├── src/
-│   └── main.py
-├── README.md
-├── .gitignore
-└── LICENSE
+HTML---CSS-UI-Designs/
+├── Credit Card Ui Design/
+│   └── index.html
+├── Flipping Card Ui Design/
+│   └── index.html
+├── Profile Card Ui Design/
+│   └── profile_ui_design.html
+└── README.md
 ```
 
-## 🧪 Tests
+## 🚀 Getting Started
 
-Explain how to run tests:
+To view any project locally:
 
-```bash
-# Example
-pytest tests/
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tariq-Bawany/HTML---CSS-UI-Designs.git
+   ```
+2. Open the desired folder.
+3. Double-click the `.html` file to launch in your browser.
 
-## 🙋‍♂️ Contributing
+## 🛠️ Technologies Used
 
-Contributions are welcome! Please open an issue or submit a pull request.
+- HTML5
+- CSS3
+
+## 🙋‍♂️ Author
+
+**Tariq Bawany**  
+GitHub: [@Tariq-Bawany](https://github.com/Tariq-Bawany)
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## 📫 Contact
-
-Your Name – [@yourhandle](https://twitter.com/yourhandle) – your.email@example.com  
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+This project is open-source and available under the [MIT License](LICENSE).
 ```
 
 ---
 
-You can customize each section to match your project. Want me to help you fill this out for your specific project? Just tell me what it’s about!
+You can copy this into your `README.md` file and commit it to your repo. Let me know if you'd like to add screenshots, animations, or host more projects!
