@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #323546;
+}
+
+/* backdrop-filet:blur() */
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+        content: "";
+        /* top: 50%;
+        left: 50%; */
+        border-radius: 50%;
+        transform: translate(-180px, -110px);
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        background: linear-gradient(90deg, #CEB7A5, #e6e0e994);
+    }
+
+    &::after {
+        content: "";
+        /* top: 50%;
+        left: 50%; */
+        border-radius: 50%;
+        transform: translate(180px, 110px);
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        background: linear-gradient(-90deg, #CEB7A5, #e6e0e994);
+    }
+}
+
+
+.card {
+    height: 300px;
+    width: 500px;
+    /* background-color: white; */
+    position: absolute;
+    z-index: 100;
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+    background-image: url(https://images.unsplash.com/photo-1730107197085-f873ee71a3e4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070);
+    /* background-color: rgba(0, 0, 0, 0.201); */
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.201);
+    /* transition: transform ease-in-out 0.4s 0.3s; */
+    /* transition: display ease-in-out 0.5s 0.5s; */
+    
+    
+}
+.card-front {
+    user-select: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .mastercard-logo {
+    display: flex;
+    gap: 15px;
+    text-shadow: 0 0 10px 10px rgba(0, 0, 0);
+    align-items: center;
+}
+
+.card .chip img {
+    height: 45px;
+}
+
+.card .mastercard-logo img {
+    height: 40px;
+}
+
+.card .mastercard-logo h1 {
+    color: #dedede;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-bottom {
+    color: #dedede;
+}
+
+.card-bottom>div>h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    /* color: red; */
+}
+
+.card-bottom h3,
+.card-bottom h2 {
+    font-weight: 400;
+}
+
+.card-bottom .owner-details {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.card-bottom .owner-details h2 {
+    font-weight: 400;
+}
+
+.card-bottom .owner-details .validity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-bottom .owner-details h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
