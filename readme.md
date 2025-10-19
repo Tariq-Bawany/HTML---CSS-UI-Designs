@@ -58,7 +58,3 @@ GitHub: [@Tariq-Bawany](https://github.com/Tariq-Bawany)
 
 This project is open-source and available under the [MIT License](LICENSE).
 ```
-
----
-
-You can copy this into your `README.md` file and commit it to your repo. Let me know if you'd like to add screenshots, animations, or host more projects!
