@@ -21,9 +21,8 @@ An interactive card that flips on hover, revealing additional content on the bac
 A stylish profile card with image, name, and social links — perfect for portfolios.  
 🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Profile%20Card%20Ui%20Design/profile_ui_design.html)
 
-## 📁 Folder Structure
 
-```
+## 📁 Folder Structure
 HTML---CSS-UI-Designs/
 ├── Credit Card Ui Design/
 │   └── index.html
