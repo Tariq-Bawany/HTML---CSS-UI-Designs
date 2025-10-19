@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    /* padding: 50px; */
+    max-width: 470px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 3px 0.1px black;
+    border-radius:20px ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.profile-image{
+    width: fit-content;
+    position: relative;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+}
+.profile-image img{
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5px; */
+}
+.profile-text .profile-bio{
+    font-size: 22px;
+    font-weight: 600;
+}
+.profile-text .profile-description{
+    /* font-size: 18px; */
+    font-weight: 400;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: transform ease-in-out .3s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.buttons{
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+}
+.buttons div{
+    font-size: 14px;
+    color: white;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 5px 10px ;
+    background-color: #4172F2;
+    &:hover{
+        background-color: #6e97ff;
+        cursor: pointer;
+    }
+}
+.profile-stats{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.profile-stats div{
+    /* border: 1px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    /* height: 100%; */
+}
