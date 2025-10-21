@@ -2,7 +2,7 @@ Perfect — thanks for sharing your live preview links! Here's an updated `READM
 
 ---
 
-```markdown
+
 # HTML & CSS UI Designs
 
 A collection of sleek and responsive UI components built using pure HTML and CSS. This repository showcases three mini projects that demonstrate creative front-end design techniques.
@@ -19,7 +19,7 @@ An interactive card that flips on hover, revealing additional content on the bac
 
 ### 3. Profile Card UI  
 A stylish profile card with image, name, and social links — perfect for portfolios.  
-🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Profile%20Card%20Ui%20Design/profile_ui_design.html)
+[Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Profile%20Card%20Ui%20Design/profile_ui_design.html)
 
 
 ## 📁 Folder Structure
