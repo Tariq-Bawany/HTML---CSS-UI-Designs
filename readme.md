@@ -21,17 +21,9 @@ An interactive card that flips on hover, revealing additional content on the bac
 A stylish profile card with image, name, and social links — perfect for portfolios.  
 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Profile%20Card%20Ui%20Design/profile_ui_design.html)
 
-
-## 📁 Folder Structure
-HTML---CSS-UI-Designs/
-├── Credit Card Ui Design/
-│   └── index.html
-├── Flipping Card Ui Design/
-│   └── index.html
-├── Profile Card Ui Design/
-│   └── profile_ui_design.html
-└── README.md
-```
+### 4. Sidebar Menu UI  
+An interactive sidebar menu design that opens the sidebar when clicks on menu icon
+[Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Sidebar%20Menu/index.html)
 
 ## 🚀 Getting Started
 
