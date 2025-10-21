@@ -15,7 +15,7 @@ A modern credit card layout with clean styling and realistic design.
 
 ### 2. Flipping Card UI  
 An interactive card that flips on hover, revealing additional content on the back.  
-🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Flipping%20Card%20Ui%20Design/)
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Flipping%20Card%20Ui%20Design/index.html)
 
 ### 3. Profile Card UI  
 A stylish profile card with image, name, and social links — perfect for portfolios.  
