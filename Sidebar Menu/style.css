@@ -166,8 +166,10 @@ a {
 #check:checked ~.btn-1 i{
     /* color: yellow; */
     opacity: 0;
+    visibility: hidden;
     /* display: none; */
 }
 #check:checked ~ .sidebar-menu .btn-2 i{
+    visibility: visible;
     opacity: 1;
 }
