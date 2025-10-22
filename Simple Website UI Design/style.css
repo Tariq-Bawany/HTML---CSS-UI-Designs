@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1760888102518-f5bb22fcf5df?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1932);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.nav .logo h2 {
+    color: white;
+}
+
+.nav .links ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.links li {
+    padding: 5px 10px;
+    transition: all 0.5s linear;
+    &:hover a {
+        color: black;
+    }
+    &:hover {
+        background-color: white;
+    }
+
+}
+
+/* .links li */
+.links li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.center{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.center h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.center .btns{
+    display: flex;
+    gap: 20px;
+}
+.center .btns button{
+    border: 2px solid white;
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.694);
+        color: black;
+    }
+}
+.center .btns :first-child{
+    background-color: transparent;
+    color: white;
+}
