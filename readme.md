@@ -25,6 +25,9 @@ A stylish profile card with image, name, and social links — perfect for portfo
 An interactive sidebar menu design that opens the sidebar when clicks on menu icon.    
 🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Sidebar%20Menu/index.html)
 
+### 4. Responsive Login Form UI  
+An simple login form design with Email, Password, Forgot Password, sign-up option.    
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Responsive%20Login%20Form%20UI%20Design/)
 
 ## 🚀 Getting Started
 
