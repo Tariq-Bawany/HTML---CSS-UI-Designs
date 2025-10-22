@@ -2,7 +2,7 @@ Perfect — thanks for sharing your live preview links! Here's an updated `READM
 
 ---
 
-```markdown
+
 # HTML & CSS UI Designs
 
 A collection of sleek and responsive UI components built using pure HTML and CSS. This repository showcases three mini projects that demonstrate creative front-end design techniques.
@@ -15,23 +15,16 @@ A modern credit card layout with clean styling and realistic design.
 
 ### 2. Flipping Card UI  
 An interactive card that flips on hover, revealing additional content on the back.  
-🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Flipping%20Card%20Ui%20Design/)
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Flipping%20Card%20Ui%20Design/index.html)
 
 ### 3. Profile Card UI  
 A stylish profile card with image, name, and social links — perfect for portfolios.  
 🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Profile%20Card%20Ui%20Design/profile_ui_design.html)
 
+### 4. Sidebar Menu UI  
+An interactive sidebar menu design that opens the sidebar when clicks on menu icon.    
+🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Sidebar%20Menu/index.html)
 
-## 📁 Folder Structure
-HTML---CSS-UI-Designs/
-├── Credit Card Ui Design/
-│   └── index.html
-├── Flipping Card Ui Design/
-│   └── index.html
-├── Profile Card Ui Design/
-│   └── profile_ui_design.html
-└── README.md
-```
 
 ## 🚀 Getting Started
 
