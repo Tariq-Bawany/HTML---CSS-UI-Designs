@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
     min-height: 100vh;
     width: 100vw;
     background-color: #70B2B2;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
-#main{
+
+#main {
     background-color: white;
     width: 85%;
     display: flex;
@@ -33,7 +37,8 @@ body{
     align-items: center;
     gap: 40px;
     position: relative;
-    &::before{
+
+    &::before {
         content: "";
         top: 50%;
         transform: translateY(-50%);
@@ -44,66 +49,106 @@ body{
         background-color: black;
     }
 }
-#main .left .details{
+
+#main .left .details {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.details .icon{
+
+.details .icon {
     width: 100%;
     text-align: center;
 }
-.icon i{
+
+.icon i {
     font-size: 30px;
     margin-bottom: 10px;
     color: #014a43;
 }
-.icon h2{
+
+.icon h2 {
     font-size: 18px;
     font-weight: 500;
 }
-.description p{
+
+.description p {
     font-size: 12px;
     color: rgb(103, 103, 103);
     font-weight: 500;
 }
+
 /* -----------Right Side------------ */
-.right{
+.right {
     width: 75%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 30px;
 }
-.right .text h1{
+
+.right .text h1 {
     font-size: 25px;
     margin-bottom: 10px;
     color: #014a43;
 }
-.right form{
+
+.right form {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-form input , form textarea{
+
+form input,
+form textarea {
     width: 100%;
     height: 45px;
     border-radius: 5px;
-    padding:  10px;
+    padding: 10px;
     border: none;
     outline: none;
     background-color: #efefef;
 }
-form textarea{
+
+form textarea {
     height: 100px;
 }
-form button{
+
+form button {
     width: fit-content;
     padding: 10px 20px;
     border-radius: 5px;
-    border:none;
+    border: none;
     background-color: #014a43;
     color: white;
     font-weight: 500;
+}
+
+@media (max-width :952px) {
+    #main {
+        width: 100%;
+        padding: 20px 30px;
+    }
+}
+@media (max-width: 756px) {
+    #main{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    #main .left {
+        flex-direction: row;
+    }
+    #main .left::before{
+        display: none;
+    }
+}
+@media (max-width:550px) {
+    #main .left {
+        flex-direction: column;
+    }
+    .description p{
+        text-align: center;
+    }
 }
