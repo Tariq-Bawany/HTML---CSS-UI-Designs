@@ -33,7 +33,7 @@ A simple login form design with Email, Password, Forgot Password, sign-up option
 A simple website design .    
 🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Simple%20Website%20UI%20Design/)
 
-### 5. Responsive Contact Us Form UI  
+### 7. Responsive Contact Us Form UI  
 An simple contact us form design with Name, Email, Message option.    
 🔗 [Live Preview](https://tariq-bawany.github.io/HTML---CSS-UI-Designs/Responsive%20Contact%20Us%20Form/)
 
