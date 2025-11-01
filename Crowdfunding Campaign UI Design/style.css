@@ -36,7 +36,7 @@ body{
 .nav li{
     border-radius: 30px;
     padding: 7px 20px;
-    background-color: #8C70BD;
+    /* background-color: #8C70BD; */
     cursor: pointer;
 }
 .nav a{
@@ -44,8 +44,11 @@ body{
     user-select: none;
     font-weight: 600;
     text-decoration: none;
-    /* color: #737373; */
-    color: white;
+    color: #737373;
+    /* color: white; */
+}
+.nav ul{
+    /* color: white; */
 }
 .body{
     margin-top: 25px;
@@ -76,6 +79,7 @@ body{
 .b-right p{
     font-size: 14px;
     text-wrap: wrap;
+    margin-bottom: 10px;
 }
 .b-right .prize {
     color: #8C70BD;
@@ -87,6 +91,7 @@ body{
     background-color: #D6F9E4;
     border-radius: 10px;
     position: relative;
+    margin-top: 10px;
     &::before{
         content: "";
         position: absolute;
@@ -98,7 +103,7 @@ body{
 }
 .bar-desc{
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .time-share{
     margin-top: 15px;
@@ -126,5 +131,12 @@ body{
     /* outline: none; */
     padding: 10px 20px;
     border-radius: 20px;
-    
+    cursor: pointer;
+}
+.selected a{
+    color: white;
+}
+.selected{
+    color: white;
+    background-color: #8C70BD;
 }
